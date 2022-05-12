@@ -1,0 +1,48 @@
+5/2 
+Update the bgm from Intergalactic Odyssey.mp3 to Intergalactic Odyssey_8bit.WAV
+Update the code that plays the bgm so that it can stop playing when game over, so that the bgm won't overlap in next try.
+Update credit page (add Tiange to sound design)
+Add feature for spaceship to rotate when it's moving
+Add asteroid spawn animation
+5/1
+beta version released !! 
+Add  all sound effect
+Add  credit page
+Fix  some bugs and optimization
+Fix  html loading script
+
+4/30
+move collsion function from asteroid to play_solo scene
+clean scene before restart:
+	destory all sprites in play_solo when flag endGame is on
+	disable collison when flag endGame is on
+add     <div style="font-family:PixelFont; position: absolute; left:-1000px; visibility:hidden;">.</div>
+	to preload the local font
+4/29
+test: git push
+4/28
+code fix: move        this.load.audio('sfx_rock_impact', './assets/asteroid_pass.mp3');
+			to play scene from menu scene
+Add UI-hp
+Add UI-timer
+4/27
+Updated title screen and planets
+
+4/26
+Added more finished background, asteroid, and ship
+Added temp asteroid sfx when colliding with the border
+
+4/25
+Update solo version of game
+Add feature "Novice mode, which starts from 0 second to 10 second, generate 1 asteroids from 8 random direction"
+Add feature "Expert mode will be turned on after 10 seconds, generate 2 asteroids at same time."
+
+4/24
+Fixed the spaceship movemnt, the acceleration now works correctly. 
+
+4/23
+Update menu scene
+
+4/23
+Combined Art and Assets folder and renamed files to lowercase
+Added temp background
